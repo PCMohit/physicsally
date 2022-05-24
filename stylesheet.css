@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Titillium Web", sans-serif;
+  /* background: url(./use_as_background.png);
+  background-size: cover;
+  background-repeat: round;
+  opacity: 0.9;
+  background-blend-mode: darken; */
+  border-radius: 12px;
+  background: #f5b68b;
+  box-shadow: inset -9px 9px 18px #d09b76, inset 9px -9px 18px #ffd1a0;
+  color: black;
+}
+
+.ctnr {
+  justify-content: center;
+  align-items: center;
+}
+
+.periodic-btn a {
+  text-decoration: none;
+}
+
+.periodic-btn {
+  width: 134px;
+  margin: 4px;
+  background-color: black;
+  border: 2px solid black;
+}
+
+.nav-brand a {
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.download-btn {
+  color: green;
+  background-color: rgb(205 254 126);
+  margin: 2px;
+  padding: 2px;
+  border: 1px solid black;
+}
+
+.download-btn a {
+  text-decoration: none;
+}
+
+dt {
+  font-size: 1.5rem;
+}
+
+.row, .actual-content {
+  border-radius: 11px;
+  background: linear-gradient(315deg, #9ad2d2, #b7f9f9);
+  box-shadow: -8px -8px 16px #8ec1c1, 8px 8px 16px #c8ffff;
+}
+
+.alert,
+.card {
+  border-radius: 10px;
+  background: linear-gradient(145deg, #8df68d, #77cf77);
+  box-shadow: 8px 8px 16px #5b9f5b, -8px -8px 16px #adffad;
+}
+
+.navbar_1,
+.footer {
+  border-radius: 12px;
+  background: linear-gradient(45deg, #5fb3d3, #71d5fa);
+  box-shadow: 9px -9px 18px #5aa9c7, -9px 9px 18px #7ae5ff;
+}
+
+.navbar_2 {
+  border-radius: 15px;
+  background: linear-gradient(145deg, #ffff00, #e6e600);
+  box-shadow: 5px 5px 10px #d4d400, -5px -5px 10px #ffff00;
+}

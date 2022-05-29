@@ -46,6 +46,7 @@ a {
   margin: 2px;
   padding: 2px;
   border: 1px solid black;
+  border-radius: 8px;
 }
 
 .download-btn a {
